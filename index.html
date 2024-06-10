@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo app</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" rel="stylesheet" />
+</head>
+<body>
+    <section class="container">
+        <form class="inputgroup">
+            <input type="text" id="Item" placeholder="Add a new task">
+            <button type="submit" id="Add"><img src="icons/plus.svg" alt="add" height="24" width="24"></button> 
+        </form>
+        <article class="tasks">
+            <p>Tasks to do - <span id="countItems">0</span></p>
+            <ul id="Items"></ul>
+        </article>
+        <article class="completed">
+            <p>Done - <span id="completedCount">0</span></p>
+            <ul id="finished"></ul>
+        </article>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
